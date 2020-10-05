@@ -6,7 +6,7 @@ def get_external_ip():
     """
     :return String
     """
-    ip = get('https://api.ipify.org').text
+    ip = get('https://www.eth0.it/ip').text
     if ip != "":
         return ip
     return 'No network connection'
