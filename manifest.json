@@ -1,8 +1,8 @@
 {
-  "required_api_version": "^2.0.0",
-  "name": "IpCopy",
+  "required_api_version": "^1.0.0",
+  "name": "IpCopy NG",
   "description": "Lookup public and private ip",
-  "developer_name": "pwnyprod",
+  "developer_name": "maddler",
   "icon": "images/icon.png",
   "options": {
     "query_debounce": 0.05
