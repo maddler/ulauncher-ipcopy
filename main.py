@@ -26,7 +26,7 @@ class KeywordQueryEventListener(EventListener):
 
         ext_ip = findip.get_external_ip()
         int_ip = findip.get_local_ip()
-
+        
         items.append(ExtensionResultItem(icon='images/icon.png',
                                          name='Local IP',
                                          description='IP:  %s' % int_ip,
